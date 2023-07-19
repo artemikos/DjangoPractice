@@ -23,7 +23,7 @@ GeoDjango project with REST Framework
 Использован фильтр rest_framework_gis.filters.DistanceToPointFilter затем при помощи distance_filter_convert_meters = True, расстояние переводится в метры.
 
 - http://127.0.0.1:8000/api/buildings/?dist=100000
-- http://127.0.0.1:8000/api/buildings/?dist=50000&point= 1.5 , 3
+- http://127.0.0.1:8000/api/buildings/?dist=50000&point=1.5,3
 - http://127.0.0.1:8000/api/buildings/?dist=35000&point=-2.5,-2.5
 ## 7. Добавить в проект тесты, проверяющие правильность работы фильтров.
 Добавлены тесты 2-ух фильтров. Запускать тесты командой python manage.py test , находясь в директории.
